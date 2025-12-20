@@ -1,0 +1,16 @@
+html {
+    background-color: var(--color-green-100);
+    color: var(--color-green-900);
+    font-family: "Outfit", sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100dvh;
+}
+
+main {
+    position: relative;
+    flex-grow: 1;
+}

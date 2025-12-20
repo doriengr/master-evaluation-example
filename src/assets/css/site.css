@@ -1,0 +1,33 @@
+@import "/assets/css/components/fonts.css";
+@import "/assets/css/components/general.css";
+
+:root {
+    --color-green-900: #23231A;
+    --color-green-500: #757357;
+    --color-green-400: #C9BE7E;
+    --color-green-300: #E1DCB7;
+    --color-green-200: #F3F1E2;
+    --color-green-100: #FBFAF3;
+    --color-rose-500: #B48080;
+    --color-rose-400: #D29F8C;
+
+    --spacing-small: 0.5rem;
+    --spacing-default: 1rem;
+    --spacing-large: 1.25rem;
+    --spacing-x-large: 1.5rem;
+    --spacing-2x-large: 2rem;
+
+    --fixed-spacing-small: 8px;
+    --fixed-spacing-default: 16px;
+    --fixed-spacing-large: 20px;
+    --fixed-spacing-x-large: 24px;
+    --fixed-spacing-2x-large: 32px;
+
+    --fixed-spacing-sections: 64px;
+}
+
+@media (min-width: 48rem) {
+   :root {
+       --fixed-spacing-sections: 84px;
+   }
+}
