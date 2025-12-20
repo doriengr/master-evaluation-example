@@ -1,8 +1,33 @@
-.navigation__list {
-    display: flex;
-    flex-direction: row;
-    gap: 0 var(--spacing-default);
-    background-color: var(--color-green-200);
+.navigation__button {
+    background-color: var(--color-green-300);
+    padding: calc(var(--spacing-default) * 0.3) var(--spacing-large);
     border-radius: 100rem;
-    padding: var(--spacing-small) var(--spacing-x-large);
+    transition: color 200ms ease-in-out;
+}
+
+.navigation__button:hover {
+    background-color: var(--color-green-400);
+}
+
+@media (min-width: 64rem) {
+    .navigation__button  {
+        display: none;
+    }
+}
+
+.navigation__list {
+    display: none;
+    flex-direction: row;
+    gap: 0 var(--spacing-large);
+    margin: 0;
+}
+
+.navigation__list.navigation__list--open {
+    display: flex;
+}
+
+@media (min-width: 64rem) {
+    .navigation__list  {
+        display: flex;
+    }
 }
