@@ -1,0 +1,8 @@
+.navigation__list {
+    display: flex;
+    flex-direction: row;
+    gap: 0 var(--spacing-default);
+    background-color: var(--color-green-200);
+    border-radius: 100rem;
+    padding: var(--spacing-small) var(--spacing-x-large);
+}
