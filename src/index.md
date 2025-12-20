@@ -28,8 +28,3 @@ title: Startseite
         </div>
     </div>
 </section>
-
-<section class="section section--dark">
-    <div class="section__inner hero">
-    </div>
-</section>

@@ -10,10 +10,15 @@
 
 .section.section--dark {
     background-color: var(--color-green-500);
+    color: var(--color-green-200);
 }
 
 .section__inner {
     max-width: 80rem;
     width: 90%;
     margin: 0 auto;
+}
+
+.section__headline {
+    font-size: var(--text-3xl);
 }

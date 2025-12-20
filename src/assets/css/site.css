@@ -1,11 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Outfit:wght@100..900&family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 @import "/assets/css/components/button.css";
 @import "/assets/css/components/decoration.css";
+@import "/assets/css/components/definition-list.css";
 @import "/assets/css/components/general.css";
 @import "/assets/css/components/header.css";
 @import "/assets/css/components/hero.css";
 @import "/assets/css/components/reset.css";
 @import "/assets/css/components/section.css";
+@import "/assets/css/components/sr-only.css";
+@import "/assets/css/components/teaser.css";
 
 :root {
     --color-green-900: #2F2F23;

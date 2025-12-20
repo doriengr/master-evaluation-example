@@ -10,6 +10,12 @@
   {% include "header.html" %}
   <main>
     {{ content | safe }}
+    <section class="section section--dark">
+      <div class="section__inner">
+          <h2 class="section__headline">Aktuell beliebte Touren</h2>
+          {% include "teaser_list.html" %}
+      </div>
+    </section>
   </main>
 </body>
 </html>

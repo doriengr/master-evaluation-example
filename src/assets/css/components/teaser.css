@@ -1,0 +1,42 @@
+.teaser-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--spacing-default);
+}
+
+@media (min-width: 40rem) {
+    .teaser-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 64rem) {
+    .teaser-list {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.teaser {
+    background-color: var(--color-green-200);
+    color: var(--color-green-900);
+    border-radius: var(--spacing-small);
+    display: block;
+    transition: transform 200ms ease-in-out;
+}
+
+.teaser:hover {
+    transform: translateY(-0.25rem);
+}
+
+.teaser__image {
+    aspect-ratio: 4/3;
+    border-radius: var(--spacing-small) var(--spacing-small) 0 0;
+}
+
+.teaser__content {
+    padding: var(--spacing-default);
+}
+
+.teaser__headline {
+    color: var(--color-green-500);
+}

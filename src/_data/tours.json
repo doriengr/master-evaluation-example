@@ -1,0 +1,20 @@
+[
+  {
+    "image": "/assets/images/homepage/hero.png",
+    "title": "Einmal um das Pietzmoor",
+    "length": "10 km",
+    "duration": "1 Std. 45 min"
+  },
+  {
+    "image": "/assets/images/homepage/hero.png",
+    "title": "Rund um den Heidepark",
+    "length": "12 km",
+    "duration": "2 Std. 10 min"
+  },
+  {
+    "image": "/assets/images/homepage/hero.png",
+    "title": "Durch das Moorgebiet",
+    "length": "8 km",
+    "duration": "1 Std. 30 min"
+  }
+]
