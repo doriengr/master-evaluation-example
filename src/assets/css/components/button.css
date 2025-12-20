@@ -1,0 +1,12 @@
+.button {
+    background-color: var(--color-green-500);
+    color: var(--color-green-200);
+    padding: calc(var(--spacing-default) * 0.3) var(--spacing-large);
+    border-radius: 100rem;
+    transition: all 400ms ease-in-out;
+    max-width: max-content;
+}
+
+.button:hover {
+    background-color: var(--color-green-900);
+}

@@ -1,0 +1,12 @@
+.section {
+    max-width: 80rem;
+    width: 90%;
+    margin: 0 auto;
+    padding: calc(var(--spacing-default) * 2) 0;
+}
+
+@media (min-width: 64rem) {
+    .section {
+        padding: calc(var(--spacing-default) * 4) 0;
+    }
+}
