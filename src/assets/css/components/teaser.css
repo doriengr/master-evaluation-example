@@ -1,31 +1,20 @@
-.teaser-list {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: var(--spacing-default);
-}
-
-@media (min-width: 40rem) {
-    .teaser-list {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media (min-width: 64rem) {
-    .teaser-list {
-        grid-template-columns: repeat(3, 1fr);
-    }
-}
-
 .teaser {
     background-color: var(--color-green-200);
     color: var(--color-green-900);
     border-radius: var(--spacing-small);
     display: block;
+    height: 100%;
     transition: transform 200ms ease-in-out;
 }
 
 .teaser:hover {
     transform: translateY(-0.25rem);
+}
+
+.teaser__headline {
+    line-height: 1.25;
+    font-weight: 400;
+    margin-bottom: var(--spacing-default);
 }
 
 .teaser__image {

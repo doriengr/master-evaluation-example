@@ -9,6 +9,7 @@
 @import "/assets/css/components/section.css";
 @import "/assets/css/components/sr-only.css";
 @import "/assets/css/components/teaser.css";
+@import "/assets/css/components/teaser-list.css";
 
 :root {
     --color-green-900: #2F2F23;

@@ -2,19 +2,22 @@
   {
     "image": "/assets/images/homepage/hero.png",
     "title": "Einmal um das Pietzmoor",
-    "length": "10 km",
-    "duration": "1 Std. 45 min"
+    "length": "120 km",
+    "duration": "6 Std. 45 min",
+    "url": "tour-01"
   },
   {
     "image": "/assets/images/homepage/hero.png",
-    "title": "Rund um den Heidepark",
-    "length": "12 km",
-    "duration": "2 Std. 10 min"
+    "title": "Totengrund: Durch das Land überirdischer Schönheit",
+    "length": "56 km",
+    "duration": "5 Std. 10 min",
+    "url": "tour-02"
   },
   {
     "image": "/assets/images/homepage/hero.png",
-    "title": "Durch das Moorgebiet",
-    "length": "8 km",
-    "duration": "1 Std. 30 min"
+    "title": "Rundfahrt um die Thülsfelder Talsperre",
+    "length": "43 km",
+    "duration": "4 Std. 30 min",
+    "url": "tour-03"
   }
 ]
