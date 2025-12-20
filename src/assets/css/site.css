@@ -28,14 +28,6 @@
     --spacing-x-large: 1.5rem;
     --spacing-2x-large: 2rem;
 
-    --fixed-spacing-small: 8px;
-    --fixed-spacing-default: 16px;
-    --fixed-spacing-large: 20px;
-    --fixed-spacing-x-large: 24px;
-    --fixed-spacing-2x-large: 32px;
-
-    --fixed-spacing-sections: 64px;
-
     /* Font size: 14px */
     --text-sm: 0.875rem;
     /* Font size: 16px */
@@ -56,10 +48,4 @@
     --text-6xl: 2.5rem;
     /* Font size: 56px */
     --text-7xl: 3.5rem;
-}
-
-@media (min-width: 48rem) {
-   :root {
-       --fixed-spacing-sections: 84px;
-   }
 }
