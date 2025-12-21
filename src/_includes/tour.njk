@@ -15,10 +15,12 @@
                         <h1 class="hero__description-headline">
                             {{ tour.title }}
                         </h1>
-                        <p class="hero__description-text">
-                            {{ tour.description }}
-                        </p>
-                        
+                        <p class="hero__description-text">{{ tour.description }}</p>
+                        {% set items = [
+                            { label: "Länge der Strecke", value: tour.length, icon: "icons/distance.svg" },
+                            { label: "Dauer der Strecke", value: tour.duration, icon: "icons/duration.svg" }
+                        ] %}
+                        {% include "components/definition-list.njk" %}
                     </div>
                     <div class="decoration decoration--top-right decoration--bottom-left">
                         <img
@@ -27,6 +29,16 @@
                             class="hero__image"
                         />
                     </div>
+                </div>
+            </section>
+            <section class="section section--light">
+                <div class="section__inner">
+                </div>
+            </section>
+            <section class="section section--dark">
+                <div class="section__inner">
+                    <h2 class="section__headline">Weitere Touren</h2>
+                    {% include "components/teaser-list.njk" %}
                 </div>
             </section>
       </main>
