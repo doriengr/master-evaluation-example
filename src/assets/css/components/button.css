@@ -10,3 +10,22 @@
 .button:hover {
     background-color: var(--color-green-900);
 }
+
+.button.button--icon {
+    width: calc(var(--spacing-x-large) * 1.5);
+    height: calc(var(--spacing-x-large) * 1.5);
+    padding: var(--spacing-small);
+    align-self: flex-end;
+    max-width: none;
+    margin-top: var(--spacing-default);
+}
+
+.button.button--secondary {
+    background-color: var(--color-green-100);
+    color: var(--color-green-900);
+}
+
+.button.button--primary {
+    background-color: var(--color-green-500);
+    color: var(--color-green-200);
+}
