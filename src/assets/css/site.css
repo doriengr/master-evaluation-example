@@ -8,12 +8,14 @@
 @import "/assets/css/components/general.css";
 @import "/assets/css/components/header.css";
 @import "/assets/css/components/hero.css";
+@import "/assets/css/components/image-gallery.css";
 @import "/assets/css/components/link.css";
 @import "/assets/css/components/navigation.css";
 @import "/assets/css/components/reset.css";
 @import "/assets/css/components/pill.css";
 @import "/assets/css/components/section.css";
 @import "/assets/css/components/sr-only.css";
+@import "/assets/css/components/tablist.css";
 @import "/assets/css/components/teaser.css";
 @import "/assets/css/components/teaser-list.css";
 
