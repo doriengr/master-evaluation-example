@@ -1,0 +1,26 @@
+.footer__navigation {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--spacing-small);
+    flex-direction: row;
+}
+
+.footer__content {
+    display: flex;
+    gap: var(--spacing-small);
+    align-items: flex-start;
+    margin-top: var(--spacing-default);
+}
+
+.footer__content-icon {
+    width: var(--spacing-large);
+    height: var(--spacing-large);
+    margin-top: calc(var(--spacing-default) * 0.25);
+    color: var(--color-green-400);
+    flex-shrink: 0;
+}
+
+.footer__content-text {
+    font-size: var(--text-base);
+    color: var(--color-green-500);
+}

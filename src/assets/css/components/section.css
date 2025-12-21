@@ -8,6 +8,10 @@
     }
 }
 
+.section.section--small {
+    padding: calc(var(--spacing-default) * 2) 0;
+}
+
 .section.section--dark {
     background-color: var(--color-green-500);
     color: var(--color-green-200);

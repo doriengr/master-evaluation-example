@@ -6,7 +6,7 @@
 }
 
 .definition-list__item {
-    font-size: var(--text-sm);
+    font-size: var(--text-base);
     color: var(--color-green-900);
 }
 
