@@ -17,7 +17,7 @@
                     </button>
                     <ul class="navigation__sublist">
                         {% for tour in tours %}
-                            {% set url = "/alle-touren/" + tour.url %}
+                            {% set url = "/" + tour.url %}
                             {% set label = tour.title %}
                             {% include "components/nav-item.njk" %}
                         {% endfor %}

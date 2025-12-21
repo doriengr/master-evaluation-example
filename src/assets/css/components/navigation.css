@@ -1,12 +1,12 @@
 .navigation__button {
-    background-color: var(--color-green-300);
+    background-color: var(--color-green-400);
     padding: calc(var(--spacing-default) * 0.3) var(--spacing-large);
     border-radius: 100rem;
     transition: all 200ms ease-in-out;
 }
 
 .navigation__button:hover {
-    background-color: var(--color-green-400);
+    background-color: var(--color-green-500);
 }
 
 @media (min-width: 64rem) {
