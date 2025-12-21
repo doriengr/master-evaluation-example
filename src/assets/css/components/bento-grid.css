@@ -19,11 +19,11 @@
 .bento-grid__item {
     background-color: var(--color-green-500);
     border-radius: var(--spacing-small);
-    color: var(--color-green-100);
+    color: var(--color-green-200);
 }
 
 .bento-grid__item:nth-child(2) {
-    background-color: var(--color-green-100);
+    background-color: var(--color-green-200);
     color: var(--color-green-500);
 }
 

@@ -24,7 +24,7 @@
 }
 
 .button.button--secondary {
-    background-color: var(--color-green-100);
+    background-color: var(--color-green-200);
     color: var(--color-green-900);
 }
 

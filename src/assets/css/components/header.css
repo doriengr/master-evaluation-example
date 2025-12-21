@@ -8,7 +8,7 @@
     margin: 0 auto;
     margin-top: var(--spacing-default);
     padding: var(--spacing-default) var(--spacing-default);
-    background-color: var(--color-green-200);
+    background-color: var(--color-green-300);
     border-radius: var(--spacing-small);
 }
 
@@ -22,10 +22,10 @@
 .header__logo-icon {
     width: var(--spacing-large);
     height: var(--spacing-large);
-    color: var(--color-green-400);
+    color: var(--color-green-500);
     transition: color 200ms ease-in-out;
 }
 
 .header__logo:hover .header__logo-icon {
-    color: var(--color-green-500);
+    color: var(--color-green-900);
 }
