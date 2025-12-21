@@ -1,44 +1,44 @@
 <ul class="bento-grid">
-  <li class="bento-grid__item bento">
-    <img src="/assets/images/hompage/hero.png" class="bento__image" />
-    <div class="bento__content">
-      <h3 class="bento__headline">Die Kraft der Natur erleben</h3>
-      <a href="/kontakt" class="button button--secondary">Erfahre mehr</a>
-    </div>
-  </li>
-  <li class="bento-grid__item bento">
-    <div class="bento__content">
-      <h3 class="bento__headline">
-        Abwechslungsreich unterwegs: Mountainbiking & Trailrunning in Österreich
-      </h3>
-      {% set items = [
-        { label: "Länge der Strecke", value: "Insgesamt 8 Touren", icon: "icons/distance.svg" },
-        { label: "Dauer der Strecke", value: "Über 15 Stunden", icon: "icons/duration.svg" }
-      ] %}
-      {% include "components/definition-list.njk" %}
-      <a href="/kontakt" class="button button--primary">Erfahre mehr</a>
-    </div>
-  </li>
-  <li class="bento-grid__item bento">
-    <div class="bento__content">
-      <h3 class="bento__headline">
-        Rondane von Nord nach Süd – 6 Tage in Norwegens ältestem Nationalpark
-      </h3>
-      {% set items = [
-        { label: "Länge der Strecke", value: "Insgesamt 8 Touren", icon: "icons/distance.svg" },
-        { label: "Dauer der Strecke", value: "Über 15 Stunden", icon: "icons/duration.svg" }
-      ] %}
-      {% include "components/definition-list.njk" %}
-      <a href="/kontakt" class="button button--secondary">Erfahre mehr</a>
-    </div>
-  </li>
-  <li class="bento-grid__item">
-    <div class="bento__content bento__content--flex">
-      {% set class = "bento__icon" %}
-      {% include "components/logo.njk" %}
-      <h3 class="bento__headline">
-        Erstelle selbst eine Tour und packe deine Sachen!
-      </h3>
-    </div>
-  </li>
+    <li class="bento-grid__item bento">
+        <img src="/assets/images/hompage/hero.png" class="bento__image" />
+        <div class="bento__content">
+            <h3 class="bento__headline">Die Kraft der Natur erleben</h3>
+            <a href="/kontakt" class="button button--secondary">Erfahre mehr</a>
+        </div>
+    </li>
+    <li class="bento-grid__item bento">
+        <div class="bento__content">
+            <h3 class="bento__headline">
+                Abwechslungsreich unterwegs: Mountainbiking & Trailrunning in Österreich
+            </h3>
+            {% set items = [
+                { label: "Länge der Strecke", value: "Insgesamt 8 Touren", icon: "icons/distance.svg" },
+                { label: "Dauer der Strecke", value: "Über 15 Stunden", icon: "icons/duration.svg" }
+            ] %}
+            {% include "components/definition-list.njk" %}
+            <a href="/kontakt" class="button button--primary">Erfahre mehr</a>
+        </div>
+    </li>
+    <li class="bento-grid__item bento">
+        <div class="bento__content">
+            <h3 class="bento__headline">
+                Rondane von Nord nach Süd – 6 Tage in Norwegens ältestem Nationalpark
+            </h3>
+            {% set items = [
+                { label: "Länge der Strecke", value: "Insgesamt 8 Touren", icon: "icons/distance.svg" },
+                { label: "Dauer der Strecke", value: "Über 15 Stunden", icon: "icons/duration.svg" }
+            ] %}
+          {% include "components/definition-list.njk" %}
+            <a href="/kontakt" class="button button--secondary">Erfahre mehr</a>
+        </div>
+    </li>
+    <li class="bento-grid__item">
+        <div class="bento__content bento__content--flex">
+            {% set class = "bento__icon" %}
+            {% include "components/logo.njk" %}
+            <h3 class="bento__headline">
+                Erstelle selbst eine Tour und packe deine Sachen!
+            </h3>
+        </div>
+    </li>
 </ul>
