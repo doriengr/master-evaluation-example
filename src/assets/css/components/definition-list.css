@@ -1,5 +1,6 @@
 .definition-list {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     gap: var(--spacing-small);
 }

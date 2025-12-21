@@ -24,7 +24,7 @@
 
 .hero__description-headline {
     font-weight: 500;
-    color: var(--color-green-500);
+    color: var(--color-green-600);
     margin-bottom: var(--spacing-default);
     font-size: clamp(var(--text-4xl), 9vw, var(--text-7xl));
 }

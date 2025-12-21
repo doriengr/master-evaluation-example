@@ -8,7 +8,7 @@
   },
   {
     "image": "/assets/images/homepage/hero.png",
-    "title": "Totengrund: Durch das Land überirdischer Schönheit",
+    "title": "Durch das Land überirdischer Schönheit",
     "length": "56 km",
     "duration": "5 Std. 10 min",
     "url": "tour-02"
@@ -19,5 +19,12 @@
     "length": "43 km",
     "duration": "4 Std. 30 min",
     "url": "tour-03"
+  },
+  {
+    "image": "/assets/images/homepage/hero.png",
+    "title": "Rundfahrt um die Thülsfelder Talsperre",
+    "length": "43 km",
+    "duration": "4 Std. 30 min",
+    "url": "tour-04"
   }
 ]
