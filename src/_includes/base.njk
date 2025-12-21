@@ -10,22 +10,6 @@
   {% include "header.html" %}
   <main>
     {{ content | safe }}
-    <section class="section section--dark">
-      <div class="section__inner">
-          <h2 class="section__headline">Aktuell beliebte Touren</h2>
-          <ul class="pill-list">
-            <li class="pill-list__item pill">mind. 20 km</li>
-            <li class="pill-list__item pill">Gravel-Strecke</li>
-            <li class="pill-list__item pill">Mittlere Anstrengung</li>
-          </ul>
-          {% include "teaser-list.html" %}
-      </div>
-    </section>
-    <section class="section section--light">
-      <div class="section__inner">
-        {% include "bento-grid.html" %}
-      </div>
-    </section>
   </main>
   {% include "footer.html" %}
   <script type="module" src="/assets/js/components/navigation.js"></script>
