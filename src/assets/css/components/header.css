@@ -9,7 +9,7 @@
     margin-top: var(--spacing-default);
     padding: var(--spacing-default) var(--spacing-default);
     background-color: var(--color-green-200);
-    border-radius: var(--spacing-default);
+    border-radius: var(--spacing-small);
 }
 
 .header__logo {

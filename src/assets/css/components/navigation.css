@@ -1,10 +1,8 @@
 .navigation__button {
-    position: relative;
-    z-index: 60;
     background-color: var(--color-green-300);
     padding: calc(var(--spacing-default) * 0.3) var(--spacing-large);
     border-radius: 100rem;
-    transition: color 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
 }
 
 .navigation__button:hover {
@@ -20,29 +18,42 @@
 .navigation__wrapper {
     display: none;
     position: absolute;
-    top: 0;
+    top: calc(var(--spacing-x-large) * 3.8);
     left: 5%;
     right: 5%;
     z-index: 50;
     background-color: var(--color-green-900);
     color: var(--color-green-100);
-    border-radius: 0 0 var(--spacing-small) var(--spacing-small);
+    border-radius: var(--spacing-small);
 }
 
 .navigation__wrapper.navigation__wrapper--open {
     display: block;
 }
 
+@media (min-width: 64rem) {
+    .navigation__wrapper  {
+        display: block;
+        background-color: transparent;
+        position: static;
+        color: var(--color-green-900);
+    }
+}
+
 .navigation__list {
     display: flex;
     flex-direction: column;
     gap: var(--spacing-large);
-    margin: calc(var(--spacing-x-large)* 4) var(--spacing-default) calc(var(--spacing-x-large)* 2) var(--spacing-default);
+    margin: var(--spacing-x-large) var(--spacing-default);
 }
 
 @media (min-width: 64rem) {
     .navigation__list  {
         display: flex;
+        flex-direction: row;
+        margin: 0;
+        gap: var(--spacing-x-large);
+        position: relative;
     }
 }
 
@@ -59,15 +70,27 @@
     display: flex;
 }
 
+@media (min-width: 64rem) {
+    .navigation__sublist  {
+        position: absolute;
+        top: calc(var(--spacing-x-large) * 1.5);
+        z-index: 50;
+        width: calc(100% + var(--spacing-default));
+        background-color: var(--color-green-900);
+        color: var(--color-green-100);
+        border-radius: var(--spacing-small);
+        padding: var(--spacing-default);
+    }
+}
+
 .navigation__sublist-button {
     display: flex;
     align-items: center;
     gap: var(--spacing-small);
-    background-color: var(--color-green-900);
+    background-color: transparent;
 }
 
 .navigation__sublist-icon {
-    color: var(--color-green-100);
     width: var(--spacing-large);
     height: var(--spacing-large);
     transition: transform 200ms ease-in-out;
