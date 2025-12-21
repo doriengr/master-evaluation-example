@@ -6,6 +6,10 @@
     transition: all 200ms ease-in-out;
 }
 
+.link.link--active {
+    color: var(--color-green-500);
+}
+
 .link:hover {
     opacity: 0.6;
 }
