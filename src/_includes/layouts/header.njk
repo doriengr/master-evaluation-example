@@ -1,7 +1,7 @@
 <header class="header">
     <a href="/" class="header__logo">
         {% set class = "header__logo-icon" %}
-        {% include "logo.njk" %}
+        {% include "components/logo.njk" %}
         <span><strong>New</strong>Paths</span>
     </a>
     <nav class="navigation">
@@ -17,19 +17,19 @@
                     </button>
                     <ul class="navigation__sublist">
                         {% for tour in tours %}
-                            {% set url = tour.url %}
+                            {% set url = "/alle-touren/" + tour.url %}
                             {% set label = tour.title %}
-                            {% include "nav-item.njk" %}
+                            {% include "components/nav-item.njk" %}
                         {% endfor %}
                     </ul>
                 </li>
                 {% set url = "/ueber-new-paths/" %}
                 {% set label = "Über NewPaths" %}
-                {% include "nav-item.njk" %}
+                {% include "components/nav-item.njk" %}
 
                 {% set url = "/kontakt/" %}
                 {% set label = "Kontakt" %}
-                {% include "nav-item.njk" %}
+                {% include "components/nav-item.njk" %}
             </ul>
         </div>
     </nav>

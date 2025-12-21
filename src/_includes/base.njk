@@ -7,11 +7,11 @@
     <link rel="stylesheet" href="/assets/css/site.css">
 </head>
 <body>
-  {% include "header.njk" %}
+  {% include "layouts/header.njk" %}
   <main>
     {{ content | safe }}
   </main>
-  {% include "footer.njk" %}
+  {% include "layouts/footer.njk" %}
   <script type="module" src="/assets/js/components/navigation.js"></script>
 </body>
 </html>
