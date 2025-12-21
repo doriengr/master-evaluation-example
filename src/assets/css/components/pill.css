@@ -1,0 +1,14 @@
+.pill-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: var(--spacing-small);
+}
+
+.pill {
+    background-color: rgba(243, 241, 226, 0.3);
+    max-width: fit-content;
+    padding: calc(var(--spacing-small) * 0.25) var(--spacing-small);
+    border-radius: 100rem;
+    font-size: var(--text-sm);
+}
