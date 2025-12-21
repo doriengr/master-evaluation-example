@@ -1,6 +1,6 @@
 .bento {
     position: relative;
-    min-height: 30vh;
+    min-height: 25vh;
 }
 
 .bento__image {
@@ -19,7 +19,6 @@
     display: flex;
     flex-direction: column;
     height: 100%;
-    justify-content: space-between;
 }
 
 .bento__content.bento__content--flex {
@@ -42,4 +41,8 @@
     width: calc(var(--spacing-x-large) * 2);
     height: calc(var(--spacing-x-large) * 2);
     color: var(--color-green-400);
+}
+
+.bento .definition-list {
+    margin-bottom: var(--spacing-default);
 }
