@@ -5,6 +5,7 @@
     "length": "120 km",
     "duration": "6 Std. 45 min",
     "url": "tour-01",
+    "alt": "Frau radelt auf einer unbefestigten Straße in einer trockenen Landschaft.",
     "description": "Der Meraner Höhenweg gehört zu den schönsten Fernwanderwegen in den Alpen. In acht Etappen umrundest du die Texelgruppe, einen gewaltigen Gebirgsstock im Süden der Ötztaler Alpen."
   },
   {
@@ -13,6 +14,7 @@
     "length": "56 km",
     "duration": "5 Std. 10 min",
     "url": "tour-02",
+    "alt": "Ein Mann fährt ein Mountainbike auf losem Untergrund in den Bergen.",
     "description": "Der Meraner Höhenweg gehört zu den schönsten Fernwanderwegen in den Alpen. In acht Etappen umrundest du die Texelgruppe, einen gewaltigen Gebirgsstock im Süden der Ötztaler Alpen."
   },
   {
@@ -21,6 +23,7 @@
     "length": "43 km",
     "duration": "4 Std. 30 min",
     "url": "tour-03",
+    "alt": "Zwei Personen fahren Rad auf einem unbefestigen Weg durch eine hügliche, grüne Landschaft.",
     "description": "Der Meraner Höhenweg gehört zu den schönsten Fernwanderwegen in den Alpen. In acht Etappen umrundest du die Texelgruppe, einen gewaltigen Gebirgsstock im Süden der Ötztaler Alpen."
   },
   {
@@ -29,6 +32,7 @@
     "length": "32 km",
     "duration": "3 Std. 10 min",
     "url": "tour-04",
+    "alt": "Eine Gruppe an Rennradfahrer:innen fahren auf einer Straße im Wald.",
     "description": "Der Meraner Höhenweg gehört zu den schönsten Fernwanderwegen in den Alpen. In acht Etappen umrundest du die Texelgruppe, einen gewaltigen Gebirgsstock im Süden der Ötztaler Alpen."
   }
 ]
