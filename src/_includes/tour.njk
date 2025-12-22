@@ -1,11 +1,6 @@
 <!DOCTYPE html>
-<html lang="de">
-  <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, inital-scale=1.0">
-      <title>{{ title }}</title>
-      <link rel="stylesheet" href="/assets/css/site.css">
-  </head>
+<html>
+    {% include "layouts/head.njk" %}
   <body>
       {% include "layouts/header.njk" %}
       <main>
@@ -44,5 +39,6 @@
             </section>
       </main>
       {% include "layouts/footer.njk" %}
+      {% include "layouts/scripts.njk" %}
   </body>
 </html>
