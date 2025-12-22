@@ -116,3 +116,8 @@ ul {
 button {
     cursor: pointer;
 }
+
+:focus,
+:focus-visible {
+	outline: none !important;
+}
