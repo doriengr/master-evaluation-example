@@ -1,0 +1,37 @@
+<form action="/kontakt-senden" method="POST" class="form" novalidate>
+    <div class="form__notice"></div>
+    <div class="form__group form__group--flex">
+        {% set label = "Feedback zur Website einreichen" %}
+        {% set id = "reason" %}
+        {% set value = "question" %}
+        {% include "components/form/radio.njk" %}
+
+        {% set label = "Eigene Tour einreichen" %}
+        {% set id = "reason" %}
+        {% set value = "tour" %}
+        {% include "components/form/radio.njk" %}
+    </div>
+
+    <div class="form__group form__group--grid">
+        {% set label = "Dein Name" %}
+        {% set id = "name" %}
+        {% set type = "text" %}
+        {% set instructions = "Dein Name" %}
+        {% include "components/form/input.njk" %}
+
+        {% set label = "Deine Mail" %}
+        {% set id = "email" %}
+        {% set type = "emial" %}
+        {% set instructions = "beispiel@beispiel.com" %}
+        {% include "components/form/input.njk" %}
+    </div>
+
+    {% set label = "Deine Nachricht" %}
+    {% set id = "message" %}
+    {% set instructions = "Deine Nachricht verfassen" %}
+    {% include "components/form/textarea.njk" %}
+
+    <button type="submit" class="button button--icon button--primary">
+        {% include "icons/arrow.svg" %}
+    </button>
+</form>
