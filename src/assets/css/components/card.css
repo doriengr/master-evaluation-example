@@ -1,0 +1,14 @@
+.card {
+    background-color: var(--color-green-200);
+    padding: var(--spacing-default);
+    border-radius: var(--spacing-small);
+}
+
+.card__headline {
+    color: var(--color-green-500);
+    margin-bottom: var(--spacing-small);
+}
+
+.card__text {
+    margin-bottom: var(--spacing-default);
+}

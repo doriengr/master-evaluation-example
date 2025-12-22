@@ -30,4 +30,5 @@
 
 .section__headline {
     font-size: var(--text-3xl);
+    margin-bottom: var(--spacing-default);
 }
