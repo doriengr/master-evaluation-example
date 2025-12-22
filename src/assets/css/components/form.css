@@ -1,9 +1,8 @@
 .form {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-default);
     margin-top: var(--spacing-default);
-}
-
-.form__group {
-    margin: var(--spacing-default) 0;
 }
 
 @media (min-width: 40rem) {

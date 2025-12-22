@@ -34,4 +34,5 @@
     position: absolute;
     right: var(--spacing-default);
     margin-bottom: var(--spacing-default);
+    align-self: flex-end;
 }

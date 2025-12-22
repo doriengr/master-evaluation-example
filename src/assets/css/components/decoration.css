@@ -4,7 +4,7 @@
 
 .decoration::before, 
 .decoration::after {
-    content: url("/assets/images/design/snowflake.svg");
+    content: url("/assets/images/design/logo-color.svg");
     position: absolute;
     transform: rotate(25deg);
     width: calc(var(--spacing-default) * 3);

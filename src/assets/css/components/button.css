@@ -9,9 +9,7 @@
     width: calc(var(--spacing-x-large) * 1.5);
     height: calc(var(--spacing-x-large) * 1.5);
     padding: var(--spacing-small);
-    align-self: flex-end;
     max-width: none;
-    margin-top: var(--spacing-default);
 }
 
 .button.button--primary {

@@ -19,4 +19,5 @@
 .definition-list__icon {
     width: var(--spacing-default);
     height: var(--spacing-default);
+    color: var(--color-green-500);
 }

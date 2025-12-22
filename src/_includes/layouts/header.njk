@@ -1,7 +1,7 @@
 <header class="header">
     <a href="/" class="header__logo">
         {% set class = "header__logo-icon" %}
-        {% include "components/logo.njk" %}
+        {% include "icons/logo.svg" %}
         <span><strong>New</strong>Paths</span>
     </a>
     <nav class="navigation">
@@ -11,9 +11,8 @@
                 <li class="navigation__list-item">
                     <button class="navigation__sublist-button link">
                         <span>Alle Touren</span>
-                        <svg class="navigation__sublist-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
-                        </svg>
+                        {% set class = "navigation__sublist-icon" %}
+                        {% include "icons/chevron.svg" %}
                     </button>
                     <ul class="navigation__sublist">
                         {% for tour in tours %}
@@ -26,6 +25,11 @@
 
                 {% set url = "/kontakt/" %}
                 {% set label = "Kontakt" %}
+                {% include "components/nav-item.njk" %}
+
+                {% set url = "https://www.komoot.com/de-de" %}
+                {% set label = "Weitere Inspirationen" %}
+                {% set isExternal = true %}
                 {% include "components/nav-item.njk" %}
             </ul>
         </div>

@@ -14,8 +14,8 @@ title: Startseite
                     Plane deine nächte Radtour, erkunde neue Wege und
                     entdecke abgelegene Orte mit NewPaths.
                 </p>
-                <a href="/kontakt" class="button button--primary">
-                    Kontakt aufnehmen
+                <a href="/kontakt" class="button button--icon button--primary">
+                    {% include "icons/arrow.svg" %}
                 </a>
             </div>
         </div>
@@ -39,8 +39,64 @@ title: Startseite
         {% include "components/teaser-list.njk" %}
     </div>
 </section>
-<section class="section section--light">
+<section class="section">
     <div class="section__inner">
         {% include "components/bento-grid.njk" %}
+    </div>
+</section>
+<section class="section section--light">
+    <div class="section__inner">
+        <h2 class="section__headline">Weitere Tipps & Tricks</h2>
+        <ul class="teaser-list" style="--grid-max-cols: 2">
+            <li class="teaser-list__item card">
+                <h3 class="card__headline">Deine Packliste</h3>
+                <p class="card__text">
+                    Hier findest du nützliche Tipps bezüglich deiner Packliste. 
+                    Erfahre mehr darüber, was du alles mitnehmen musst für die perfekte Tour.
+                </p>
+                <button class="button button--primary">
+                    Packliste öffnen    
+                </button>
+                {% set headline = "Deine Packliste" %}
+                {% set content %}
+                    <ul class="dialog__content">
+                        <li>🚴 Fahrrad & Helm</li>
+                        <li>🧰 Reparaturset (Schlauch, Pumpe, Multitool)</li>
+                        <li>💧 Trinkflasche / Hydration Pack</li>
+                        <li>🥪 Snacks & Energieriegel</li>
+                        <li>🧥 Wetterfeste Kleidung</li>
+                        <li>🗺️ Karte / GPS Gerät</li>
+                        <li>📱 Handy + Powerbank</li>
+                        <li>🕶️ Sonnenbrille</li>
+                        <li>🧴 Sonnenschutz & Erste-Hilfe-Set</li>
+                    </ul>
+                {% endset %}
+                {% include "components/dialog.njk"%}
+            </li>
+            <li class="teaser-list__item card">
+                <h3 class="card__headline">Bike-Check</h3>
+                <p class="card__text">
+                    Finde heraus, was du vorher alles an deinem Bike überprüfen und
+                    anbringen solltest, bevor du deine Bike-Packing Tour startest.
+                </p>
+                <button class="button button--primary">
+                    Zum Bike-Check
+                </button>
+                {% set headline = "Der ultimative Bike-Check" %}
+                {% set content %}
+                    <ul class="dialog__content">
+                        <li>🚴 Reifen: Druck prüfen & Profil kontrollieren</li>
+                        <li>🔧 Bremsen: Funktionstest vorne & hinten</li>
+                        <li>⚙️ Schaltung: Schaltvorgänge prüfen</li>
+                        <li>💡 Beleuchtung: Batterie & Funktion prüfen</li>
+                        <li>🛠️ Kette & Antrieb: schmieren und säubern</li>
+                        <li>🪛 Schrauben: Sattel, Lenker, Pedale festziehen</li>
+                        <li>🧰 Ersatzteile: Schlauch, Pumpe, Multitool</li>
+                        <li>📦 Gepäck: Rucksack oder Taschen sicher befestigen</li>
+                    </ul>
+                {% endset %}
+                {% include "components/dialog.njk"%}
+            </li>
+        </ul>
     </div>
 </section>

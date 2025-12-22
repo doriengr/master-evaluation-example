@@ -6,13 +6,13 @@
                     src="{{ tour.image }}"
                     loading="eager"
                     class="teaser__image"
-                    alt="{{ tour.title }}"
+                    alt="{{ tour.alt }}"
                 />
                 <div class="teaser__button button button--icon button--secondary">
                     {% include "icons/arrow.svg" %}
                 </div>
                 <div class="teaser__content">
-                    <h3 class="teaser__headline">{{ tour.title }}</h3>
+                    <h4 class="teaser__headline">{{ tour.title }}</h4>
                     {% set items = [
                         { label: "Länge der Strecke", value: tour.length, icon: "icons/distance.svg" },
                         { label: "Dauer der Strecke", value: tour.duration, icon: "icons/duration.svg" }

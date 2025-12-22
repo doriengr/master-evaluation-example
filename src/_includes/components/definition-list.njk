@@ -1,7 +1,7 @@
 <dl class="definition-list">
     {% for item in items %}
         <div class="definition-list__item">
-            <dt class="definition-list__headline sr-only">{{ item.label }}</dt>
+            <span class="definition-list__headline sr-only">{{ item.label }}</span>
             <dd class="definition-list__definition">
                 {% if item.icon %}
                     {% include item.icon %}
