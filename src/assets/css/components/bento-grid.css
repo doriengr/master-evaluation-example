@@ -17,19 +17,28 @@
 }
 
 .bento-grid__item {
-    background-color: var(--color-green-500);
+    background-color: var(--color-green-400);
     border-radius: var(--spacing-small);
+    color: var(--color-green-900);
+}
+
+.bento-grid__item:first-child {
     color: var(--color-green-200);
 }
 
 .bento-grid__item:nth-child(2) {
-    background-color: var(--color-green-200);
+    background-color: var(--color-green-300);
     color: var(--color-green-500);
 }
 
 .bento-grid__item:nth-child(3) {
-    background-color: var(--color-green-400);
-    color: var(--color-green-900);
+    background-color: var(--color-green-500);
+    color: var(--color-green-200);
+}
+
+.bento-grid__item:nth-child(3) .definition-list__item,
+.bento-grid__item:nth-child(3) .definition-list__icon {
+    color: var(--color-green-200);
 }
 
 
@@ -51,3 +60,6 @@
     }
 }
 
+.bento__icon {
+    color: var(--color-green-500);
+}
