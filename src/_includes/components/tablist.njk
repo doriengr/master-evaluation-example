@@ -1,0 +1,47 @@
+<ul class="tablist__nagivation">
+    <li><button class="button button--primary">Schwierigkeiten</button></li>
+    <li><button class="button button--secondary">Bilergalerie</button></li>
+    <li><button class="button button--secondary">Startorte & Anfahrt</button></li>
+</ul>
+<ul class="tablist__list">
+    <li class="tablist__list-item tablist__list-item--active">
+        <h3>Schwierigkeiten</h3>
+        <p>
+            Schwierige Route. Sehr gute Kondition erforderlich. Überwiegend gut befahrbare Wege.
+            Auf der fünften Etappe des Meraner Höhenwegs fährst du aus dem malerischen Pfelderer Tal bis zum Passeiertal. 
+            Dabei geht es die meiste Zeit gemächlich bergab. 
+        </p>
+        {% set items = [
+            { label: "Länge der Strecke", value: tour.length, icon: "icons/distance.svg" },
+            { label: "Dauer der Strecke", value: tour.duration, icon: "icons/duration.svg" }
+        ] %}
+        {% include "components/definition-list.njk" %}
+    </li>
+    <li class="tablist__list-item">
+        <h3>Bilergalerie</h3>
+        <ul class="image-gallery">
+            <li class="image-gallery__item">
+                <img src="/assets/images/homepage/hero.png" class="image-gallery__image" />
+            </li>
+            <li>
+                <img src="/assets/images/homepage/hero.png" class="image-gallery__image" />
+            </li>
+            <li>
+                <img src="/assets/images/homepage/hero.png" class="image-gallery__image" />
+            </li>
+        </ul>
+    </li>
+    <li class="tablist__list-item">
+        <h3>Startorte & Anfahrt</h3>
+        <p>
+            Die Tour kann von mehreren Startpunkten aus unternommen werden. Öffentliche Verkehrsmittel sind in allen Startorten verfügbar.
+            Für Autofahrer stehen Parkmöglichkeiten am Ausgangspunkt bereit. 
+            Eine detaillierte Anfahrtsbeschreibung und GPS-Koordinaten findest du hier:
+        </p>
+        <address>
+            Flensburg: Bahnhofsvorplatz 1, 24937 Flensburg<br>
+            Hamburg: Alsterufer 10, 22303 Hamburg<br>
+            Berlin: Prenzlauer Allee 45, 10405 Berlin
+        </address>
+    </li>
+</ul>

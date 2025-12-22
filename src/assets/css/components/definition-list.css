@@ -1,0 +1,22 @@
+.definition-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: var(--spacing-small);
+}
+
+.definition-list__item {
+    font-size: var(--text-base);
+    color: var(--color-green-900);
+}
+
+.definition-list__definition {
+    display: flex;
+    gap: var(--spacing-small);
+    align-items: center;
+}
+
+.definition-list__icon {
+    width: var(--spacing-default);
+    height: var(--spacing-default);
+}

@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import "/assets/css/components/bento.css";
+@import "/assets/css/components/bento-grid.css";
+@import "/assets/css/components/button.css";
+@import "/assets/css/components/decoration.css";
+@import "/assets/css/components/definition-list.css";
+@import "/assets/css/components/footer.css";
+@import "/assets/css/components/form.css";
+@import "/assets/css/components/general.css";
+@import "/assets/css/components/header.css";
+@import "/assets/css/components/hero.css";
+@import "/assets/css/components/image-gallery.css";
+@import "/assets/css/components/link.css";
+@import "/assets/css/components/navigation.css";
+@import "/assets/css/components/reset.css";
+@import "/assets/css/components/pill.css";
+@import "/assets/css/components/section.css";
+@import "/assets/css/components/sr-only.css";
+@import "/assets/css/components/tablist.css";
+@import "/assets/css/components/teaser.css";
+@import "/assets/css/components/teaser-list.css";
+
+:root {
+    --color-green-900: #2F2F23;
+    --color-green-500: #757357;
+    --color-green-400: #C9BE7E;
+    --color-green-300: #E1DCB7;
+    --color-green-200: #F3F1E2;
+    --color-rose-500: #B48080;
+
+    --spacing-small: 0.5rem;
+    --spacing-default: 1rem;
+    --spacing-large: 1.25rem;
+    --spacing-x-large: 1.5rem;
+    --spacing-2x-large: 2rem;
+
+    /* Font size: 14px */
+    --text-sm: 0.875rem;
+    /* Font size: 16px */
+    --text-base: 1rem;
+    /* Font size: 18px */
+    --text-lg: 1.125rem;
+    /* Font size: 20px */
+    --text-xl: 1.25rem;
+    /* Font size: 24px */
+    --text-2xl: 1.5rem;
+    /* Font size: 28px */
+    --text-3xl: 1.75rem;
+    /* Font size: 32px */
+    --text-4xl: 2rem;
+    /* Font size: 36px */
+    --text-5xl: 2.25rem;
+    /* Font size: 40px */
+    --text-6xl: 2.5rem;
+    /* Font size: 56px */
+    --text-7xl: 3.5rem;
+}

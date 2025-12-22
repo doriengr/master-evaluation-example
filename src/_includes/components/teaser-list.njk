@@ -1,0 +1,25 @@
+<ul class="teaser-list">
+    {% for tour in tours %}
+        <li class="teaser-list__item">
+            <a href="/{{ tour.url }}" class="teaser">
+                <img
+                    src="{{ tour.image }}"
+                    loading="eager"
+                    class="teaser__image"
+                    alt="{{ tour.title }}"
+                />
+                <div class="teaser__button button button--icon button--secondary">
+                    {% include "icons/arrow.svg" %}
+                </div>
+                <div class="teaser__content">
+                    <h3 class="teaser__headline">{{ tour.title }}</h3>
+                    {% set items = [
+                        { label: "Länge der Strecke", value: tour.length, icon: "icons/distance.svg" },
+                        { label: "Dauer der Strecke", value: tour.duration, icon: "icons/duration.svg" }
+                    ] %}
+                    {% include "components/definition-list.njk" %}
+                </div>
+            </a>
+        </li>
+    {% endfor %}
+</ul>

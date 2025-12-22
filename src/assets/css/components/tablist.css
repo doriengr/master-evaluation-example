@@ -1,0 +1,24 @@
+.tablist__nagivation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: var(--spacing-small);
+}
+
+.tablist__list {
+    max-width: 50rem;
+    margin: 0 auto;
+}
+
+.tablist__list-item {
+    display: none;
+    padding: var(--spacing-default);
+    background-color: var(--color-green-200);
+    border-radius: var(--spacing-small);
+    flex-direction: column;
+    gap: var(--spacing-small);
+}
+
+.tablist__list-item.tablist__list-item--active {
+    display: flex;
+}

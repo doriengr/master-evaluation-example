@@ -1,13 +1,12 @@
 <!DOCTYPE html>
-<html lang="de">
-<head>
-  <meta charset="UTF-8">
-  <title>{{ title }}</title>
-</head>
-<body>
-
-  <main>
-    {{ content | safe }}
-  </main>
-</body>
+<html>
+    {% include "layouts/head.njk" %}
+    <body>
+        {% include "layouts/header.njk" %}
+        <main>
+            {{ content | safe }}
+        </main>
+        {% include "layouts/footer.njk" %}
+        {% include "layouts/scripts.njk" %}
+    </body>
 </html>

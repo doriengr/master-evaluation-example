@@ -1,0 +1,9 @@
+.teaser-list {
+    --_grid-min-size: var(--grid-min-size, 200px);
+    --_grid-max-cols: calc(var(--grid-max-cols, 4) + 1);
+
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(max(var(--_grid-min-size), 100% / var(--_grid-max-cols)), 1fr));
+    gap: var(--spacing-default);
+}

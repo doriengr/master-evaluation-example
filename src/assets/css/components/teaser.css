@@ -1,0 +1,37 @@
+.teaser {
+    position: relative;
+    display: block;
+    height: 100%;
+    transition: transform 200ms ease-in-out;
+    background-color: var(--color-green-200);
+    color: var(--color-green-900);
+    border-radius: var(--spacing-small);
+}
+
+.teaser:hover {
+    transform: translateY(-0.25rem);
+}
+
+.teaser__headline {
+    line-height: 1.25;
+    margin-bottom: var(--spacing-default);
+}
+
+.teaser__image {
+    aspect-ratio: 4/3;
+    border-radius: var(--spacing-small) var(--spacing-small) 0 0;
+}
+
+.teaser__content {
+    padding: var(--spacing-default);
+}
+
+.teaser__headline {
+    color: var(--color-green-500);
+}
+
+.teaser__button {
+    position: absolute;
+    right: var(--spacing-default);
+    margin-bottom: var(--spacing-default);
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "image": "/assets/images/tours/tour-01.jpg",
+    "title": "Einmal um das Pietzmoor",
+    "length": "120 km",
+    "duration": "6 Std. 45 min",
+    "url": "tour-01",
+    "description": "Der Meraner Höhenweg gehört zu den schönsten Fernwanderwegen in den Alpen. In acht Etappen umrundest du die Texelgruppe, einen gewaltigen Gebirgsstock im Süden der Ötztaler Alpen."
+  },
+  {
+    "image": "/assets/images/tours/tour-02.jpg",
+    "title": "Durch das Land überirdischer Schönheit",
+    "length": "56 km",
+    "duration": "5 Std. 10 min",
+    "url": "tour-02",
+    "description": "Der Meraner Höhenweg gehört zu den schönsten Fernwanderwegen in den Alpen. In acht Etappen umrundest du die Texelgruppe, einen gewaltigen Gebirgsstock im Süden der Ötztaler Alpen."
+  },
+  {
+    "image": "/assets/images/tours/tour-03.jpg",
+    "title": "Rundfahrt um die Thülsfelder Talsperre",
+    "length": "43 km",
+    "duration": "4 Std. 30 min",
+    "url": "tour-03",
+    "description": "Der Meraner Höhenweg gehört zu den schönsten Fernwanderwegen in den Alpen. In acht Etappen umrundest du die Texelgruppe, einen gewaltigen Gebirgsstock im Süden der Ötztaler Alpen."
+  },
+  {
+    "image": "/assets/images/tours/tour-04.jpg",
+    "title": "Ab durch die Alpiner Berge",
+    "length": "32 km",
+    "duration": "3 Std. 10 min",
+    "url": "tour-04",
+    "description": "Der Meraner Höhenweg gehört zu den schönsten Fernwanderwegen in den Alpen. In acht Etappen umrundest du die Texelgruppe, einen gewaltigen Gebirgsstock im Süden der Ötztaler Alpen."
+  }
+]

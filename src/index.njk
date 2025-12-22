@@ -1,0 +1,46 @@
+---
+layout: base.njk
+title: Startseite
+---
+
+<section class="section">
+    <div class="section__inner hero">
+        <div class="hero__description hero__description--grid">
+            <h1 class="hero__description-headline">
+                Dein nächstes<br> Abendteuer wartet!
+            </h1>
+            <div class="hero__description-text">
+                <p>
+                    Plane deine nächte Radtour, erkunde neue Wege und
+                    entdecke abgelegene Orte mit NewPaths.
+                </p>
+                <a href="/kontakt" class="button button--primary">
+                    Kontakt aufnehmen
+                </a>
+            </div>
+        </div>
+        <div class="decoration decoration--top-right decoration--bottom-left">
+            <img
+                src="/assets/images/homepage/hero.png"
+                loading="eager"
+                class="hero__image"
+            />
+        </div>
+    </div>
+</section>
+<section class="section section--dark">
+    <div class="section__inner">
+        <h2 class="section__headline">Aktuell beliebte Touren</h2>
+        <ul class="pill-list">
+            <li class="pill-list__item pill">mind. 20 km</li>
+            <li class="pill-list__item pill">Gravel-Strecke</li>
+            <li class="pill-list__item pill">Mittlere Anstrengung</li>
+        </ul>
+        {% include "components/teaser-list.njk" %}
+    </div>
+</section>
+<section class="section section--light">
+    <div class="section__inner">
+        {% include "components/bento-grid.njk" %}
+    </div>
+</section>

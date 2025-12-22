@@ -1,0 +1,33 @@
+.decoration {
+    position: relative;
+}
+
+.decoration::before, 
+.decoration::after {
+    content: url("/assets/images/design/snowflake.svg");
+    position: absolute;
+    transform: rotate(25deg);
+    width: calc(var(--spacing-default) * 3);
+    height: calc(var(--spacing-default) * 3);
+    animation: spin 10s linear infinite;
+}
+
+.decoration.decoration--bottom-left::before {
+    bottom: calc(var(--spacing-default) * -1);
+    left: calc(var(--spacing-default) * -1);
+}
+
+.decoration.decoration--top-right::after {
+    top: calc(var(--spacing-default) * -1);
+    right: calc(var(--spacing-default) * -1);
+    animation-direction: reverse;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
