@@ -57,6 +57,21 @@ title: Startseite
                 <button class="button button--primary">
                     Packliste öffnen    
                 </button>
+                {% set headline = "Deine Packliste" %}
+                {% set content %}
+                    <ul class="dialog__content">
+                        <li>🚴 Fahrrad & Helm</li>
+                        <li>🧰 Reparaturset (Schlauch, Pumpe, Multitool)</li>
+                        <li>💧 Trinkflasche / Hydration Pack</li>
+                        <li>🥪 Snacks & Energieriegel</li>
+                        <li>🧥 Wetterfeste Kleidung</li>
+                        <li>🗺️ Karte / GPS Gerät</li>
+                        <li>📱 Handy + Powerbank</li>
+                        <li>🕶️ Sonnenbrille</li>
+                        <li>🧴 Sonnenschutz & Erste-Hilfe-Set</li>
+                    </ul>
+                {% endset %}
+                {% include "components/dialog.njk"%}
             </li>
             <li class="teaser-list__item card">
                 <h3 class="card__headline">Bike-Check</h3>
@@ -67,6 +82,20 @@ title: Startseite
                 <button class="button button--primary">
                     Zum Bike-Check
                 </button>
+                {% set headline = "Der ultimative Bike-Check" %}
+                {% set content %}
+                    <ul class="dialog__content">
+                        <li>🚴 Reifen: Druck prüfen & Profil kontrollieren</li>
+                        <li>🔧 Bremsen: Funktionstest vorne & hinten</li>
+                        <li>⚙️ Schaltung: Schaltvorgänge prüfen</li>
+                        <li>💡 Beleuchtung: Batterie & Funktion prüfen</li>
+                        <li>🛠️ Kette & Antrieb: schmieren und säubern</li>
+                        <li>🪛 Schrauben: Sattel, Lenker, Pedale festziehen</li>
+                        <li>🧰 Ersatzteile: Schlauch, Pumpe, Multitool</li>
+                        <li>📦 Gepäck: Rucksack oder Taschen sicher befestigen</li>
+                    </ul>
+                {% endset %}
+                {% include "components/dialog.njk"%}
             </li>
         </ul>
     </div>

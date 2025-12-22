@@ -1,0 +1,25 @@
+.dialog {
+    padding: var(--spacing-default);
+    border-radius: var(--spacing-small);
+    background-color: var(--color-green-200);
+    width: 80vw;
+    border: none;
+}
+
+.dialog__header {
+    display: flex;
+    gap: var(--spacing-default);
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: var(--spacing-default);
+}
+
+.dialog__headline {
+    font-size: var(--text-2xl);
+    color: var(--color-green-500);
+}
+
+dialog::backdrop {
+    background-color: rgba(52, 54, 56, 0.4);
+    backdrop-filter: blur(1.5px);
+}
