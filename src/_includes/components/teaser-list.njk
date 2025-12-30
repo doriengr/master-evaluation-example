@@ -2,14 +2,16 @@
     {% for tour in tours %}
         <li class="teaser-list__item">
             <a href="/{{ tour.url }}" class="teaser">
-                <img
-                    src="{{ tour.image }}"
-                    loading="eager"
-                    class="teaser__image"
-                    alt="{{ tour.alt }}"
-                />
-                <div class="teaser__button button button--icon button--secondary">
-                    {% include "icons/arrow.svg" %}
+                <div class="teaser__image-wrapper">
+                    <img
+                        src="{{ tour.image }}"
+                        loading="eager"
+                        class="teaser__image"
+                        alt="{{ tour.alt }}"
+                    />
+                    <div class="teaser__button button button--icon button--secondary">
+                        {% include "icons/arrow.svg" %}
+                    </div>
                 </div>
                 <div class="teaser__content">
                     <h4 class="teaser__headline">{{ tour.title }}</h4>
