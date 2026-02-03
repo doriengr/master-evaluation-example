@@ -15,4 +15,4 @@ npm run start
 
 ## Deployment
 Changes are automatically deployed when committed to the main branch.
-[Live site](TODO)
+[Live site](https://master-evaluation-example.netlify.app/)
